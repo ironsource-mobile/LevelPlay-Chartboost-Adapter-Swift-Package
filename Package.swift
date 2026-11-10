@@ -3,7 +3,7 @@ import PackageDescription
 
 let package = Package(
   name: "LevelPlay-Chartboost-Adapter-Swift-Package",
-  platforms: [.iOS(.v15)],
+  platforms: [.iOS(.v12)],
   products: [
     .library(name: "ChartboostAdapter", targets: ["ChartboostAdapter"]),
   ],
@@ -22,8 +22,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "ChartboostAdapterSDK",
-      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/chartboost-adapter/5.9.0/ISChartboostAdapter5.9.0.zip",
-      checksum: "3ffed8e3132abec5812b2931c0219cc0a7dedade942d3bcc7e650d00caad937b"
+      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/chartboost-adapter/5.10.0/ISChartboostAdapter5.10.0.zip",
+      checksum: "8d5784d3267eec11eb2f61853d1b94675c0a9ed1d0ed7b9506a05f2ba3dcc383"
     )
   ]
 )
